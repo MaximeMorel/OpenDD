@@ -1,0 +1,81 @@
+04/10/2007
+basic movement, camera, engine.
+
+11/10/2007
+separate car & camera movement.
+tweaking car movement.
+basic circle collision with cars and walls.
+adding 3d car(not working).
+
+18/10/2007
+starting doxygen doc.
+working 3d model loader.
+minimal light system.
+tweaking car movement.
+
+20/10/2007
+Ability to have multiple cars.
+
+21/10/2007
+trying to make some modules independant from each other ( less cross includes ).
+
+22/10/2007
+add a lot of doxygen doc.
+code cleaning.
+changing degrees to radians.
+add some vector functions.
+using arrays instead of a lot of vars.
+
+23/10/2007
+trying advanced car collision.
+
+24/10/2007
+more vector functions.
+advanced car collision are very bad.
+
+25/10/2007
+advanced car collision are mostly ok.
+
+26/10/2007
+fps struct is now global.
+separation of player and camera : new module camera.
+begining of AI structures.
+
+29/10/2007
+car textures
+
+08/11/2007
+rearranged camera modes
+
+15/11/2007
+particles
+
+19/11/2007
+bitmap fonts
+hud
+
+21/11/2007
+new texture loading system : a texture for each car
+sound : ogg streaming with openal
+
+22/11/2007
+tire traces
+
+27/11/2007
+camera can switch to another car
+
+28/11/2007
+damage based on collision position
+movement indep from framerate
+
+29/11/2007
+menu
+smoke
+ingame restart
+
+02/12/2007
+jpg screenshot
+	
+03/12/2007
+background mountain
+config save/load
