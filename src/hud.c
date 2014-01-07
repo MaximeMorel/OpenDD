@@ -24,7 +24,7 @@ void hudDraw( SRender* r, SPlayer* p, SGame* g )
       if( g->nb_cars[1] == 1 )
 	{
 	  glColor4f( 0.8f, 0.0f, 0.0f, 1.0f );
-	  glPrintf( &r->font, "Your are the only survivor !!!", 3*p->conf->res[0]/20, 4*p->conf->res[1]/20, p->conf->res[0]/40 );
+	  glPrintf( &r->font, "You are the only survivor !!!", 3*p->conf->res[0]/20, 4*p->conf->res[1]/20, p->conf->res[0]/40 );
 	}
     }
 
@@ -43,7 +43,7 @@ void hudCarState( SRender* r, SPlayer* p )
 {
   float a = p->conf->res[0]/64.0f;
   float b = p->conf->res[1]/64.0f;
-  
+
   glDisable( GL_TEXTURE_2D );
 
   glBegin( GL_TRIANGLES );
@@ -60,7 +60,7 @@ void hudCarState( SRender* r, SPlayer* p )
   glVertex2f( a*60.0f, b*10.0f );
   glVertex2f( a*59.0f, b*10.0f );
   glVertex2f( a*59.5f, b*9.0f );
-  
+
   // front left
   if( (int)p->car.damage[1] == 1 )
     {
